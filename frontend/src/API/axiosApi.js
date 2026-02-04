@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const BASE_URL =
-  import.meta.env.VITE_API_URL || "http://localhost:7002/api/v1";
+const BASE_URL ="https://todo-task-backend-phi.vercel.app/api/v1"|| "http://localhost:7002/api/v1";
 
   console.log(BASE_URL)
 export const axiosInstance = axios.create({
