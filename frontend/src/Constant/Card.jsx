@@ -183,6 +183,7 @@ function Card({ task, currentStatus, onTaskComplete, onTaskDelete, onTaskEdit })
               <button onClick={handleCompleteConfirm} className="w-full bg-green-600 text-white p-2 rounded">
                 Complete
               </button>
+              //just add
             </div>
           </div>
         </div>
