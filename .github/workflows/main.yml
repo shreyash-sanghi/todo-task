@@ -1,0 +1,14 @@
+name : shreyash jain
+
+on: 
+   push: 
+     branches: [main]
+
+jobs:
+  test-demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkGetting
+        run: echo "Hello from shreyash jain"
+   
